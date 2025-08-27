@@ -11,7 +11,7 @@ def mostrar_notas_f():
     RESET   = "\033[0m"
 
     print(ROJO + "Estas son tus notas en materia de la especialidad:")
-    print(RESET + f"Patrimonio turistico: {notas.patrimonio_turistico}")
+    print(RESET + f"Patrimonio turistico: {notas.org_turistica_2}")
     print(f"Organizaciones turisticas 2: {notas.org_turistica_2}")
     print(f"Estrategias para las comunicaciones para : {notas.RRHH}")
 

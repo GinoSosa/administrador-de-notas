@@ -1,6 +1,6 @@
 import mostrar_notas
 import mostrar_promedio
-import modificar_nota
+import elejir_modificar_o_eliminar_nota
 
 while True:
     print("-------------------------")
@@ -10,7 +10,7 @@ while True:
     3. Promedio materias de la especialidad
     4. Promedio materias troncales
     5. Promedio materias especiales
-    6. Ingresar notas
+    6. Ingresar o eliminar notas
     7. Salir
     ¿Que queres hacer?: """).lower()
 
@@ -25,7 +25,7 @@ while True:
     elif entrada in ("5","promedio materias especiales"):
         mostrar_promedio.prom_especiales()
     elif entrada in ("6","ingresar notas"):
-        modificar_nota.inicio()
+        elejir_modificar_o_eliminar_nota.inicio()
     elif entrada in ("7","salir","exit"):
         print("Saliendo...")
         break
